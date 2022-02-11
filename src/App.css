@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #da1879;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #fa0494;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for Menu */
+.menuDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  
+}
+
+.menuDiv ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.menuDiv li {
+  display: inline;
+  margin: 10rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: rgb(255, 0, 191);
+}
+
+.menuDiv a {
+  text-decoration: none;
+}
+
+.menuDiv a:hover {
+  text-decoration: underline;
+}
+
+.menuLink {
+  color: #ac105e;
+  float: right;
+}
+
+/* End of styling for menu ------------------------------*/
+
+/* Styles for Instruction page */
+.helpDiv {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 10rem;
+}
+
+
+
+/* End of help page styles ---------------------------------*/
+
+/* Header styles ----------------------------------*/
+.header h1 {
+  margin: 0rem 1rem;
+}
+
+.header {
+  height: 5rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1rem;
+  color: rgb(253, 8, 131);
+
+  border-bottom: 1px solid #e9e1e1;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+  color: #df1591;
+}
+
+.helpLink {
+
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+
+}
+
+/* End of header styles ---------------------------------*/
